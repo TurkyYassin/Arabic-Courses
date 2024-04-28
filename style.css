@@ -440,20 +440,20 @@
   #offers .offers-items img {
     width: 350px;
     border-radius: 10px;
-    
+    margin-bottom: 20px;
   }
   
-  #offers .offers-items h3 button {
+  #offers .offers-items h3 button a{
     font-size: 21px;
     font-weight: bold;
     color: #1f1f1f;
     margin: 15px 0;
-    background: none;
+    background: #fff;
     transition: 0.5s;
     padding-left: 10px;
     padding-bottom: 10px;
   }
-  #offers .offers-items h3 button:hover{
+  #offers .offers-items h3 button a:hover{
    color: #F84D07;
   }
   
@@ -472,43 +472,6 @@
   }
   
   /* Offers Section end */
-
-  /* Next Start */
-  .next {
-    margin-top: 100px;
-    text-align: center;
-  }
-  .next button {
-    padding: 20px;
-    border: 1px solid #d6cfcf;
-    border-radius: 50%;
-    background: #f1f4fa; 
-    transition: all 0.8s;
-  }
-
-  .next button a{
-    color:#1f1f1f;
-    font-weight: bolder;
-    font-size: 14px;
-  }
-  .next button:hover{
-    background: #F84D07;
-    
-  }
-  .next button:hover a{
-    color: #fff;
-  }
-  .next .cc{
-    background: #1256EA;
-  }
-  .next .cc a{
-    color: #fff;
-  }
-  .next .cc:hover{
-    background: #F84D07;
-  }
-  
-  /* Next END */
 
     /* course end */
 
